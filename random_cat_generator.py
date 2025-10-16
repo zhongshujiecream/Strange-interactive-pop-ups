@@ -248,7 +248,7 @@ def save_grid_as_png(grid, color_map, path, scale=1):
 class PixelCatApp:
     def __init__(self, root):
         self.root = root
-        root.title('Random Cell Generator')
+        root.title('Random Cat Generator')
 
         frm = ttk.Frame(root, padding=12)
         frm.grid(row=0, column=0, sticky='nsew')
@@ -269,7 +269,7 @@ class PixelCatApp:
         self.canvas = tk.Canvas(frm, width=CANVAS_PIXELS*SCALE, height=CANVAS_PIXELS*SCALE, bg='white')
         self.canvas.grid(row=1, column=0, columnspan=4, pady=8)
 
-        note = ttk.Label(frm, text='Enter a number seed and click Generate. Each seed produces a different cell pattern!')
+        note = ttk.Label(frm, text='Enter a number seed and click Generate. Each seed produces a different cat pattern!')
         note.grid(row=2, column=0, columnspan=4)
 
         # initial

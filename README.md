@@ -28,3 +28,45 @@ Notes
 
 License
 - Free to use and modify. Contributions welcome.
+
+# 3D Dream Generator
+
+This project is a 3D dream visualizer built with Python 3 and pygame.
+
+## Features
+- Dynamic generation of 3D cubes, floating buildings, spheres, dream tunnels, and more
+- Mouse interaction: affect rotation, floating, repulsion, etc.
+- Color gradients, semi-transparent trails, twinkling stars for a dreamy effect
+- Windows supported
+
+## Requirements
+- Python 3.12.x (recommended; Python 3.14 is not supported)
+- pygame
+
+## Install dependencies
+```powershell
+python -m pip install pygame
+```
+
+## How to run
+Open a terminal in this project directory and run:
+```powershell
+python dream.py
+```
+Or, if you use a specific Python 3.12 path:
+```powershell
+C:\Users\zsj\AppData\Local\Programs\Python\Python312\python.exe dream.py
+```
+
+## Files
+- `dream.py`: Main program, 3D Dream Generator
+
+## FAQ
+- If pygame installation fails, make sure you are using Python 3.12 or 3.11.
+- If the `python` command is not recognized, use the full path to your Python executable.
+
+## Preview
+When running, a window will pop up showing a dynamic 3D dream world.
+
+---
+If you have any questions, feel free to ask!
